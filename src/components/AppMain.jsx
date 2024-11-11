@@ -16,9 +16,9 @@ export default function AppMain() {
 
     return (
         <main>
-            <h3>
+            <h2>
                 {welcome}
-            </h3>
+            </h2>
             <section className="Current">
                 <h3>Current Tasks ({counterInProgress})</h3>
                 <ul>
@@ -31,6 +31,9 @@ export default function AppMain() {
                     ))}
                 </ul>
             </section>
+
+            <hr />
+
             <section className="Completed">
                 <h3>Completed Tasks  ({counterCompleted})</h3>
                 <ul>
