@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 header {
@@ -10,7 +11,8 @@ header {
 }
 
 main {
-  margin: 0 20px;
+  background-color: rgb(231, 228, 228);
+  padding: 20px;
 
   ul {
     list-style: none;
@@ -35,6 +37,7 @@ main {
     background-color: rgb(224, 151, 14);
     color: white;
     font-size: 15px;
+    border: 1px solid black;
   }
 
 
